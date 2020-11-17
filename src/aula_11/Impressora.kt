@@ -18,8 +18,14 @@ class Impressora {
                   nomeDalista.imprimir()
                 else if(nomeDalista is Contrato)
                     nomeDalista.imprimir()
+     }
 
-        }
+
+   /* fun imprimaTudoListaImprimivel() {
+        for (tipoDaLista in listaImprimivel) {
+            println("Item: ${tipoDaLista.nome}, Tipo de Documento: ${tipoDaLista.tipoDeDocumento}")
+        }*/
 
     }
+
 }
